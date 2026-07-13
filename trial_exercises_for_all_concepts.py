@@ -111,6 +111,8 @@ print(f"8 appears {count8} times in thistuple")
 myfavouritebeverages=set({'mirinda orange','mirinda pineapple','minute maid'})
 print(myfavouritebeverages)
 myfavouritebeverages.update(['water','milk'])
+fav1=myfavouritebeverages.pop()
+print(fav1)
 print(myfavouritebeverages)
 
 mySet={'oven','microwave','kettle','refrigerator'}
